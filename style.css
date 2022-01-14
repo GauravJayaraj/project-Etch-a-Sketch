@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: space-around;
+
+    border: 2px solid red;
+    margin: 20px;
+    padding: 0;
+}
+
+.options{
+    display: flex;
+    gap: 4rem;
+
+    border: 2px solid green;
+    padding: 20px 20px 20px 20px;
+}
+
+button{
+    background-color: green;
+    color: honeydew;
+
+    padding: 2px 2px 2px 2px;
+    margin: 0;
+
+    border-radius: 12%;
+
+    height: 2rem;
+    width: 5rem;
+}
+
+
+
